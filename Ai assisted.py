@@ -38,3 +38,16 @@ if __name__ == "__main__":
     print("\nHappy numbers up to 100:")
     happy_nums = find_happy_numbers(100)
     print(happy_nums)
+
+
+Output:
+
+Testing individual numbers:
+7 is happy
+10 is happy
+19 is happy
+20 is unhappy
+23 is happy
+
+Happy numbers up to 100:
+[1, 7, 10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70, 79, 82, 86, 91, 94, 97, 100]
